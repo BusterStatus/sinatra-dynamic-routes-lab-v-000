@@ -19,7 +19,6 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @number.times do
       # string += @phrase
-      puts @phrase
     end
     string
   end
